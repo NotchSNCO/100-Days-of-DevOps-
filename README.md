@@ -27,88 +27,172 @@ Manifesting Reality: I meditate and recite affirmations daily. Today’s affirma
 
 I’m starting at the CLI and aiming for the Cloud. If you see me talking to my terminal, don't worry—we’re just having a "briefing."
 
-Day 1-5: The Gatekeepers 🛡️
-Day 1: Set up non-interactive shells (keeping the bots out).
+🚀 100 Days of DevOps: Mission Log
+Target: Master the Stack. Status: Phase 1 Active. 🎖️
+Welcome to my journey! I’m a USAF Veteran turned Systems Explorer, documenting 100 consecutive days of breaking things and putting them back together (better).
 
-Day 2: User accounts with expiration dates (temporary passes only!).
+🛰️ Phase 1: Linux, Networking & Security (Days 1-20)
+"In space, no one can hear your sudo scream."
 
-Day 3: Locked down Root SSH. If you aren't on the list, you aren't getting in.
-
-Day 4-5: Mastered file permissions and got cozy with SELinux configuration.
-
-Day 6-10: Automation & Repairs 🔧
-Day 6: My first Cron Job. The server now works while I sleep.
-
-Day 8: Bootstrapped Ansible. Why do it once when you can automate it?
-
-Day 9: MariaDB Troubleshooting. Found the ghost in the machine and fixed it.
-
-Day 11-16: The Web Tier 🌐
-Day 11: Deployed Tomcat. Middleware is officially in the building.
-
-Day 13-14: Firewall gymnastics with IPtables and hunting down zombie processes.
-
-Day 15-16: The Big One. Set up Nginx with SSL certificates and configured it as a Load Balancer. Traffic is now balanced and encrypted. 🔒
+<details> <summary><b>Day 1: Linux User Setup with Non-Interactive Shell</b></summary>
 
 Bash
 
-# [PASTE YOUR FAVORITE COMMAND FROM THIS WEEK HERE]
-# Example: sudo nginx -t && sudo systemctl reload nginx
+# Code goes here
 </details>
 
-📦 Phase 2: Containers & Git Flow (Days 21-40)
-Status: 🟡 Preparing for Launch
+<details> <summary><b>Day 2: Temporary User Setup with Expiry</b></summary>
 
+Bash
+
+# Code goes here
+</details>
+
+<details> <summary><b>Day 3: Secure Root SSH Access</b></summary>
+
+Bash
+
+# Code goes here
+</details>
+
+<details> <summary><b>Day 4: Script Execution Permissions</b></summary>
+
+Bash
+
+# Code goes here
+</details>
+
+<details> <summary><b>Day 5: SELinux Installation & Configuration</b></summary>
+
+Bash
+
+# Code goes here
+</details>
+
+<details> <summary><b>Day 6: Create a Cron Job</b></summary>
+
+Bash
+
+# Code goes here
+</details>
+
+<details> <summary><b>Day 7: Linux SSH Authentication</b></summary>
+
+Bash
+
+# Code goes here
+</details>
+
+<details> <summary><b>Day 8: Install Ansible</b></summary>
+
+Bash
+
+# Code goes here
+</details>
+
+<details> <summary><b>Day 9: MariaDB Troubleshooting</b></summary>
+
+Bash
+
+# Code goes here
+</details>
+
+<details> <summary><b>Day 10: Linux Bash Scripts</b></summary>
+
+Bash
+
+# Code goes here
+</details>
+
+<details> <summary><b>Day 11: Install and Configure Tomcat Server</b></summary>
+
+Bash
+
+# Code goes here
+</details>
+
+<details> <summary><b>Day 12: Linux Network Services</b></summary>
+
+Bash
+
+# Code goes here
+</details>
+
+<details> <summary><b>Day 13: IPtables Installation & Configuration</b></summary>
+
+Bash
+
+# Code goes here
+</details>
+
+<details> <summary><b>Day 14: Linux Process Troubleshooting</b></summary>
+
+Bash
+
+# Code goes here
+</details>
+
+<details> <summary><b>Day 15: Setup SSL for Nginx</b></summary>
+
+Bash
+
+# Code goes here
+</details>
+
+<details> <summary><b>Day 16: Install and Configure Nginx as an LBR</b></summary>
+
+Bash
+
+# Code goes here
+</details>
+
+<details> <summary><b>Day 17-20: [Placeholders]</b></summary>
+
+Bash
+
+# Comming soon...
+</details>
+
+📦 Phase 2: Version Control & Containers (Days 21-45)
 "If it works on my machine, we'll ship my machine." — The Docker Creed. 🐳
 
-<details> <summary><b>Planned Tasks</b></summary>
-
-Day 21-30: Git-fu (Branching, Merging, and the occasional git reset --hard prayer).
-
-Day 35-40: Dockerizing everything. Containers are the future, and I'm the captain now.
+<details> <summary><b>Days 21-34: Git-fu & Collaboration</b></summary>
 
 Bash
 
-# [PLACEHOLDER FOR YOUR FIRST DOCKER RUN COMMAND]
+# Placeholder for Git assignments
 </details>
 
-☸️ Phase 3: Kubernetes & Scaling (Days 41-70)
-Status: 🔴 Locked
+<details> <summary><b>Days 35-45: Dockerizing the World</b></summary>
 
+Bash
+
+# Placeholder for Dockerfiles and Compose
+</details>
+
+☸️ Phase 3: Kubernetes Orchestration (Days 46-70)
 Orchestrating containers like a digital Mozart. 🎹
 
-<details> <summary><b>Planned Tasks</b></summary>
-
-Deploying Pods, Services, and Ingress.
-
-Persistent Volumes: Making data stay put in a cloud that loves to move.
+<details> <summary><b>Days 46-70: K8s Pods, Services, and Scaling</b></summary>
 
 YAML
 
-# [PLACEHOLDER FOR YOUR DEPLOYMENT.YAML]
+# Placeholder for Kubernetes Manifests
 </details>
 
-♾️ Phase 4: CI/CD & The Cloud (Days 71-100)
-Status: 🔴 Locked
+♾️ Phase 4: CI/CD & Infrastructure as Code (Days 71-100)
+Building pipelines that never sleep. 🏗️
 
-The "DevOps" in DevOps. Building pipelines that never sleep. 🏗️
-
-<details> <summary><b>Planned Tasks</b></summary>
-
-Jenkins/GitHub Actions: Code goes in, magic comes out.
-
-Terraform: Turning code into actual servers.
-
-Final Mission: A full-stack, automated deployment.
+<details> <summary><b>Days 71-100: Jenkins, Terraform, and Cloud Deployment</b></summary>
 
 Groovy
 
-// [PLACEHOLDER FOR YOUR JENKINSFILE]
+// Placeholder for Jenkinsfiles and Terraform HCL
 </details>
 
 📈 Vital Signs
-Favorite Tool: grep (Because finding things is half the battle).
+Favorite Tool: grep (Because finding things is half the battle). 🔍
 
-Most Used Command: sudo !! (For when I forget I'm not the boss yet).
+Most Used Command: sudo !! (For when I forget I'm not the boss yet). 👑
 
-Coffee Consumed: ☕ [Insert Count] Gallons.
+Current Affirmation: "The pods shall remain in a Running state." 🧘‍♂️
