@@ -2,14 +2,6 @@
 Target: Master the Stack. Status: Day 16 & Counting. 🎖️
 Welcome to my journey! I’m a USAF Veteran turned Systems Explorer, documenting 100 consecutive days of breaking things and putting them back together (better). This repo is a live-feed of my technical evolution from Linux basics to Cloud-Native Orchestration.
 
-🛠️ The Mission Phases
-🛰️ Phase 1: Linux & Networking (Days 1-20)
-Status: 🟢 Mission Active
-
-"In space, no one can hear your sudo scream."
-
-<details> <summary><b>Click to expand logs for Days 1-16</b></summary>
-
 Day 0: The "Why" Before the "How" 🛫 ➡️ 💻
 Log Date: December 28, 2025
 
