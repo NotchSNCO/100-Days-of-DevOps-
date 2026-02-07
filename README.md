@@ -10,6 +10,23 @@ Status: 🟢 Mission Active
 
 <details> <summary><b>Click to expand logs for Days 1-16</b></summary>
 
+Day 0: The "Why" Before the "How" 🛫 ➡️ 💻
+Log Date: December 28, 2025
+
+Current Status: Retired from the Skies, Entering the Cloud.
+
+After 20 years in the U.S. Air Force, I’ve handled high-stakes missions, managed complex systems, and learned that "good enough" usually isn't. When I retired in 2018, I realized the tech world is just another theater of operations—only here, the "enemy" is a 404 error, and my "fleet" consists of Nginx servers and MariaDB clusters.
+
+Why am I doing this?
+
+Discipline is a Muscle: You don't stay in the Air Force for two decades without loving a good routine. 100 days of code is just a new type of basic training.
+
+The Entrepreneurial Bug: I’m building an online business, and I refuse to pay someone else to fix a server I can learn to master myself.
+
+Manifesting Reality: I meditate and recite affirmations daily. Today’s affirmation: "My code shall compile, and my load balancer shall actually balance."
+
+I’m starting at the CLI and aiming for the Cloud. If you see me talking to my terminal, don't worry—we’re just having a "briefing."
+
 Day 1-5: The Gatekeepers 🛡️
 Day 1: Set up non-interactive shells (keeping the bots out).
 
