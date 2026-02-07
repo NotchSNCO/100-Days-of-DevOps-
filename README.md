@@ -23,163 +23,248 @@ I’m starting at the CLI and aiming for the Cloud. If you see me talking to my 
 Target: Master the Stack. Status: Phase 1 Active. 🎖️
 Welcome to my journey! I’m a USAF Veteran turned Systems Explorer, documenting 100 consecutive days of breaking things and putting them back together (better).
 
-🛰️ Phase 1: Linux, Networking & Security (Days 1-20)
-"In space, no one can hear your sudo scream."
-
-<details> <summary><b>Day 1: Linux User Setup with Non-Interactive Shell</b></summary>
+🛰️ Phase 1: Linux & Security (Days 1–20)
+<details><summary><b>Day 1: Linux User Setup (Non-Interactive Shell)</b> 👤</summary>
 
 Bash
 
-# Code goes here
+# Paste Day 1 code here
 </details>
 
-<details> <summary><b>Day 2: Temporary User Setup with Expiry</b></summary>
+<details><summary><b>Day 2: Temporary User Setup with Expiry</b> ⏳</summary>
 
 Bash
 
-# Code goes here
+# Paste Day 2 code here
 </details>
 
-<details> <summary><b>Day 3: Secure Root SSH Access</b></summary>
+<details><summary><b>Day 3: Secure Root SSH Access</b> 🔒</summary>
 
 Bash
 
-# Code goes here
+# Paste Day 3 code here
 </details>
 
-<details> <summary><b>Day 4: Script Execution Permissions</b></summary>
+<details><summary><b>Day 4: Script Execution Permissions</b> 📜</summary>
 
 Bash
 
-# Code goes here
+# Paste Day 4 code here
 </details>
 
-<details> <summary><b>Day 5: SELinux Installation & Configuration</b></summary>
+<details><summary><b>Day 5: SELinux Configuration</b> 🛡️</summary>
 
 Bash
 
-# Code goes here
+# Paste Day 5 code here
 </details>
 
-<details> <summary><b>Day 6: Create a Cron Job</b></summary>
+<details><summary><b>Day 6: Cron Job Automation</b> ⏰</summary>
 
 Bash
 
-# Code goes here
+# Paste Day 6 code here
 </details>
 
-<details> <summary><b>Day 7: Linux SSH Authentication</b></summary>
+<details><summary><b>Day 7: SSH Key Authentication</b> 🔑</summary>
 
 Bash
 
-# Code goes here
+# Paste Day 7 code here
 </details>
 
-<details> <summary><b>Day 8: Install Ansible</b></summary>
+<details><summary><b>Day 8: Ansible Installation</b> 🤖</summary>
 
 Bash
 
-# Code goes here
+# Paste Day 8 code here
 </details>
 
-<details> <summary><b>Day 9: MariaDB Troubleshooting</b></summary>
+<details><summary><b>Day 9: MariaDB Troubleshooting</b> 🗄️</summary>
 
 Bash
 
-# Code goes here
+# Paste Day 9 code here
 </details>
 
-<details> <summary><b>Day 10: Linux Bash Scripts</b></summary>
+<details><summary><b>Day 10: Bash Scripting Fundamentals</b> 🐚</summary>
 
 Bash
 
-# Code goes here
+# Paste Day 10 code here
 </details>
 
-<details> <summary><b>Day 11: Install and Configure Tomcat Server</b></summary>
+<details><summary><b>Day 11: Apache Tomcat Deployment</b> 🐱</summary>
 
 Bash
 
-# Code goes here
+# Paste Day 11 code here
 </details>
 
-<details> <summary><b>Day 12: Linux Network Services</b></summary>
+<details><summary><b>Day 12: Network Services Management</b> 📡</summary>
 
 Bash
 
-# Code goes here
+# Paste Day 12 code here
 </details>
 
-<details> <summary><b>Day 13: IPtables Installation & Configuration</b></summary>
+<details><summary><b>Day 13: IPtables Firewall Config</b> 🧱</summary>
 
 Bash
 
-# Code goes here
+# Paste Day 13 code here
 </details>
 
-<details> <summary><b>Day 14: Linux Process Troubleshooting</b></summary>
+<details><summary><b>Day 14: Process Troubleshooting</b> 🕵️</summary>
 
 Bash
 
-# Code goes here
+# Paste Day 14 code here
 </details>
 
-<details> <summary><b>Day 15: Setup SSL for Nginx</b></summary>
+<details><summary><b>Day 15: Nginx SSL/TLS Setup</b> 🔐</summary>
 
 Bash
 
-# Code goes here
+# Paste Day 15 code here
 </details>
 
-<details> <summary><b>Day 16: Install and Configure Nginx as an LBR</b></summary>
+<details><summary><b>Day 16: Nginx Load Balancer (LBR)</b> ⚖️</summary>
 
 Bash
 
-# Code goes here
+# Paste Day 16 code here
 </details>
 
-<details> <summary><b>Day 17-20: [Placeholders]</b></summary>
+<details><summary><b>Day 17: Linux Firewall (Firewalld)</b> 🔥</summary>
 
 Bash
 
-# Comming soon...
+# Placeholder
 </details>
 
-📦 Phase 2: Version Control & Containers (Days 21-45)
-"If it works on my machine, we'll ship my machine." — The Docker Creed. 🐳
-
-<details> <summary><b>Days 21-34: Git-fu & Collaboration</b></summary>
+<details><summary><b>Day 18: Apache Virtual Hosts</b> 🏠</summary>
 
 Bash
 
-# Placeholder for Git assignments
+# Placeholder
 </details>
 
-<details> <summary><b>Days 35-45: Dockerizing the World</b></summary>
+<details><summary><b>Day 19: Log Rotation & Management</b> 📑</summary>
 
 Bash
 
-# Placeholder for Dockerfiles and Compose
+# Placeholder
 </details>
 
-☸️ Phase 3: Kubernetes Orchestration (Days 46-70)
-Orchestrating containers like a digital Mozart. 🎹
+<details><summary><b>Day 20: System Monitoring & Resource Usage</b> 📊</summary>
 
-<details> <summary><b>Days 46-70: K8s Pods, Services, and Scaling</b></summary>
+Bash
+
+# Placeholder
+</details>
+
+📦 Phase 2: Git & Containerization (Days 21–45)
+<details><summary><b>Day 21: Git Initialization & Config</b> 📂</summary>
+
+Bash
+
+# Placeholder
+</details>
+
+<details><summary><b>Day 22: Git Branching & Merging</b> 🌿</summary>
+
+Bash
+
+# Placeholder
+</details>
+
+<details><summary><b>Day 23: Git Conflict Resolution</b> ⚔️</summary>
+
+Bash
+
+# Placeholder
+</details>
+
+<details><summary><b>Day 24: Git Remote Repositories (GitHub/Lab)</b> ☁️</summary>
+
+Bash
+
+# Placeholder
+</details>
+
+<details><summary><b>Day 25: Git Stashing & Reverting</b> 🔙</summary>
+
+Bash
+
+# Placeholder
+</details>
+
+(... Continue this pattern for all days in your README ...)
+
+<details><summary><b>Day 35: Docker Engine Installation</b> 🐳</summary>
+
+Bash
+
+# Placeholder
+</details>
+
+<details><summary><b>Day 36: Docker Images & Containers</b> 🚢</summary>
+
+Bash
+
+# Placeholder
+</details>
+
+<details><summary><b>Day 41: Writing Dockerfiles</b> ✍️</summary>
+
+Dockerfile
+
+# Placeholder
+</details>
+
+☸️ Phase 3: Kubernetes Orchestration (Days 46–75)
+<details><summary><b>Day 46: K8s Architecture & Setup</b> 🏗️</summary>
+
+Bash
+
+# Placeholder
+</details>
+
+<details><summary><b>Day 50: K8s Pods & Deployments</b> 🚀</summary>
 
 YAML
 
-# Placeholder for Kubernetes Manifests
+# Placeholder
 </details>
 
-♾️ Phase 4: CI/CD & Infrastructure as Code (Days 71-100)
-Building pipelines that never sleep. 🏗️
+<details><summary><b>Day 55: K8s Services & Networking</b> 🕸️</summary>
 
-<details> <summary><b>Days 71-100: Jenkins, Terraform, and Cloud Deployment</b></summary>
+YAML
 
-Groovy
+# Placeholder
+</details>
 
-// Placeholder for Jenkinsfiles and Terraform HCL
+♾️ Phase 4: CI/CD & Infrastructure as Code (Days 76–100)
+<details><summary><b>Day 76: Jenkins CI Setup</b> 🏗️</summary>
+
+Bash
+
+# Placeholder
+</details>
+
+<details><summary><b>Day 85: Terraform Infrastructure as Code</b> 🌍</summary>
+
+Terraform
+
+# Placeholder
+</details>
+
+<details><summary><b>Day 100: The Final Capstone Project</b> 🏁</summary>
+
+Bash
+
+# The culmination of 100 days of effort!
 </details>
 
 📈 Vital Signs
