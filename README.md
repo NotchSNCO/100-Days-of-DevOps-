@@ -251,9 +251,8 @@ FLUSH PRIVILEGES;
 🛠️ Troubleshooting & Lessons
 The "Host" Hurdle: * I initially forgot that localhost in MariaDB prevents remote App Servers from connecting.
 
-Fix: Re-provisioned the user with the '%' wildcard to allow internal network traffic.
+Fix: Re-provisioned the user with the '%' wildcard to allow internal network traffic.</details>
 
-</details>
 <details> <summary><b>Day 19: Install and Configure Web Application</b> 💻</summary>
 
 🎯 Objective
