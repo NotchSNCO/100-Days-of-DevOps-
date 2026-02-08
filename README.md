@@ -237,37 +237,32 @@ Deploying a Linux-Apache-MySQL-PHP stack.
 Bash
 
 # Code used:
-ay 18: Configure LAMP Server (Distributed Architecture) 🏮
-🎯 Objective Deploy a high-availability WordPress backend. This involved configuring three separate App Hosts to serve content on a custom port (3003) while connecting to a centralized, remote MariaDB instance on a dedicated DB Server.
+<details> <summary><b>Day 18: Configure LAMP Server</b> 🏮</summary>
+
+🎯 Objective
+Deploy a high-availability WordPress backend across a distributed environment.
 
 💻 Technical Execution
-
-App Tier (stapp01, 02, 03): * Installed httpd, php, and php-mysqlnd.
-
-  **Reconfigured Apache to listen on port 3003 via sed.
+App Server Configuration:
 
 Bash
-  **sudo sed -i 's/Listen 80/Listen 3003/g' /etc/httpd/conf/httpd.conf
-  **sudo systemctl enable --now httpd
-
-DB Tier (stdb01):
-Installed mariadb-server and provisioned a remote user with specific grants.
+# Update Apache port and restart service
+sudo sed -i 's/Listen 80/Listen 3003/g' /etc/httpd/conf/httpd.conf
+sudo systemctl enable --now httpd
+Database Provisioning:
 
 SQL
+-- Create DB and remote user
 CREATE DATABASE kodekloud_db3;
 CREATE USER 'kodekloud_rin'@'%' IDENTIFIED BY 'Rc5C9EyvbU';
 GRANT ALL PRIVILEGES ON kodekloud_db3.* TO 'kodekloud_rin'@'%';
+FLUSH PRIVILEGES;
 🛠️ Troubleshooting & Lessons
+The "Host" Hurdle: * I initially forgot that localhost in MariaDB prevents remote App Servers from connecting.
 
-Challenge: The App Servers could not initially communicate with the Database Server.
+Fix: Re-provisioned the user with the '%' wildcard to allow internal network traffic.
 
-Solution: Discovered the MariaDB user was originally created for localhost. I dropped the user and recreated it with the '%' wildcard to allow remote connections from the App Server IP range.
-
-Lesson: In a distributed environment, "localhost" always refers to the machine the service is on, not the cluster. Security groups and user host-scopes must be configured for the internal network.
-🛠️ Troubleshooting & Lessons
-Challenge: * Solution: </details>
-
-<details> <summary><b>Day 19: Install and Configure Web Application</b> 💻</summary>
+</details>
 
 🎯 Objective
 End-to-end application deployment.
