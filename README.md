@@ -230,7 +230,7 @@ Challenge: * Solution: </details>
 
 <details> <summary><b>Day 18: Configure LAMP server</b> 🏮</summary>
 
-🎯 Objective
+ Objective
 End-to-end application deployment.
 
 💻 Technical Execution
