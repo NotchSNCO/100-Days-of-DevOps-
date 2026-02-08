@@ -236,7 +236,7 @@ Deploy a high-availability WordPress backend across a distributed environment.
 💻 Technical Execution
 App Server Configuration:
 
-```Bash
+    ```bash
     # Update Apache port and restart service
     sudo sed -i 's/Listen 80/Listen 3003/g' /etc/httpd/conf/httpd.conf
     sudo systemctl enable --now httpd
@@ -248,6 +248,7 @@ App Server Configuration:
     CREATE USER 'kodekloud_rin'@'%' IDENTIFIED BY 'Rc5C9EyvbU';
     GRANT ALL PRIVILEGES ON kodekloud_db3.* TO 'kodekloud_rin'@'%';
     FLUSH PRIVILEGES;
+    ```bash
 🛠️ Troubleshooting & Lessons
 The "Host" Hurdle: * I initially forgot that localhost in MariaDB prevents remote App Servers from connecting.
 
