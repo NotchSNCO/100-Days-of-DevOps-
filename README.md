@@ -248,7 +248,7 @@ App Server Configuration:
     CREATE USER 'kodekloud_rin'@'%' IDENTIFIED BY 'Rc5C9EyvbU';
     GRANT ALL PRIVILEGES ON kodekloud_db3.* TO 'kodekloud_rin'@'%';
     FLUSH PRIVILEGES;
-    ```Bash
+    ```
 🛠️ Troubleshooting & Lessons
 The "Host" Hurdle: * I initially forgot that localhost in MariaDB prevents remote App Servers from connecting.
 
