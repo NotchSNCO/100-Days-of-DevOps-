@@ -231,38 +231,14 @@ Challenge: * Solution: </details>
 <details> <summary><b>Day 18: Configure LAMP server</b> 🏮</summary>
 
 🎯 Objective
-Deploying a Linux-Apache-MySQL-PHP stack.
+End-to-end application deployment.
 
 💻 Technical Execution
 Bash
-
 # Code used:
-<details> <summary><b>Day 18: Configure LAMP Server</b> 🏮</summary>
-
-🎯 Objective
-Deploy a high-availability WordPress backend across a distributed environment.
-
-💻 Technical Execution
-App Server Configuration:
-
-Bash
-# Update Apache port and restart service
-sudo sed -i 's/Listen 80/Listen 3003/g' /etc/httpd/conf/httpd.conf
-sudo systemctl enable --now httpd
-Database Provisioning:
-
-SQL
--- Create DB and remote user
-CREATE DATABASE kodekloud_db3;
-CREATE USER 'kodekloud_rin'@'%' IDENTIFIED BY 'Rc5C9EyvbU';
-GRANT ALL PRIVILEGES ON kodekloud_db3.* TO 'kodekloud_rin'@'%';
-FLUSH PRIVILEGES;
 🛠️ Troubleshooting & Lessons
-The "Host" Hurdle: * I initially forgot that localhost in MariaDB prevents remote App Servers from connecting.
-
-Fix: Re-provisioned the user with the '%' wildcard to allow internal network traffic.
-
-</details>
+Challenge: * Solution: </details>
+<details> <summary><b>Day 19: Install and Configure Web Application</b> 💻</summary>
 
 🎯 Objective
 End-to-end application deployment.
