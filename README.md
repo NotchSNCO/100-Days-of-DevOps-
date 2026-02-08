@@ -244,13 +244,13 @@ ay 18: Configure LAMP Server (Distributed Architecture) 🏮
 
 App Tier (stapp01, 02, 03): * Installed httpd, php, and php-mysqlnd.
 
-Reconfigured Apache to listen on port 3003 via sed.
+  **Reconfigured Apache to listen on port 3003 via sed.
 
 Bash
-sudo sed -i 's/Listen 80/Listen 3003/g' /etc/httpd/conf/httpd.conf
-sudo systemctl enable --now httpd
-DB Tier (stdb01):
+  **sudo sed -i 's/Listen 80/Listen 3003/g' /etc/httpd/conf/httpd.conf
+  **sudo systemctl enable --now httpd
 
+DB Tier (stdb01):
 Installed mariadb-server and provisioned a remote user with specific grants.
 
 SQL
